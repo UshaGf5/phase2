@@ -1,0 +1,39 @@
+body{
+  background:#E8DAEF  ;
+}
+.parent{
+  width:100%;
+  border: 2px solid black ;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.career,.skills{
+  background:#76D7C4   ;
+  width:95%;
+  margin:2%;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 2px;
+  font-style: italic;
+}
+.details{
+  background:#AED6F1 ;
+  width:45%;
+  margin:2%;
+  border:2px solid black;
+  border-radius: 2px;
+  text-align: center;
+  font-style: italic;
+}
+input,select{
+  width:80%;
+  margin:2%;
+  font-style: oblique;
+}
+#button{
+  color: #F1948A;
+  font-weight: bold;
+  margin:2%;
+  font-size:100%;
+}

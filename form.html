@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="parent">
+      <!--Career Objective-->
+      <div class="career">
+        <h1>Career Objective</h1>
+        <label for="career">
+        <input type="text" name="career" id="career"placeholder="Career Objective">
+        </label>
+      </div>
+
+    <!--Personal Info-->
+    <div class="details">
+      <h1>Personal Details</h1>
+      <!--label for="name-->
+        <input type="text" name="name"id="name"placeholder="Enter name">
+        <input type="text" name="dob"id="dob"placeholder="DOB">
+        <input type="text" name="email"id="email"placeholder="Enter e_mail">
+        <input type="text" name="phnum"id="phnum"placeholder="Enter phnum">
+        <input type="text" name="address"id="address"placeholder="Enter address">
+        </div>
+          <!--label-->
+          <div class="details">
+            <!--<h1>Educational Details</h1>-->
+            <h2>Graduation Details</h2>
+            <label for="institute">
+                <select id="institute">
+                <option>Select Institute </option>
+                <option>MITS</option>
+                <option>Vishwam</option>
+                <option>Golden Valley</option>
+                <option>Adithya</option>
+                </select>
+                </label>
+                <!-- Branch -->
+                <select id="dept">
+                  <option>Select dept</option>
+                  <option>CSE</option>
+                  <option>ECE</option>
+                  <option>EEE</option>
+                  <option>MECH</option>
+                  <option>CE</option>
+                  <option>IT</option>
+                  </select>
+                  <!--YOP -->
+                  <select id="gyop">
+                  <option>YOP</option>
+                  <option>2020</option>
+                  <option>2021</option>
+                  <option>2022</option>
+                  <option>2023</option>
+                </select>
+                <!--Percentage-->
+                <input type="text" name="cgpa"id="cgpa"placeholder="Enter CGPA">
+                    </div>
+                    <div class="details">
+                     <h2>inter/diploma</h2>
+                     <input type="text" name="clgname" id="clgname"placeholder="Name of the College">
+                     <select id="iboard">
+                       <option>Select Board</option>
+                       <option>State</option>
+                       <option>CBSC</option>
+                       <option>ICSE</option>
+                     </select>
+                     <input type="text" name="perc"id="perc" placeholder="Enter %">
+                     <select id="iyop">
+                       <option>YOP</option>
+                       <option>2014</option>
+                       <option>2015</option>
+                       <option>2016</option>
+                       <option>2017</option>
+                      </select>
+                    </div>
+                 <!-- ssc details -->
+                 <div class="details">
+                  <h2>SSC details</h2>
+                  <input type="text" name="sname"id="sname" placeholder="Name of the School">
+                  <select id="sboard">
+                    <option>Select Board</option>
+                    <option>State</option>
+                    <option>CBSC</option>
+                    <option>ICSE</option>
+                   </select>
+                   <input type="text" name="sperc" id="sperc"placeholder="Enter %">
+                  <select id="syop">
+                    <option>YOP</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                   </select>
+                 </div>
+                 <div class="skills">
+                   <h2>Skills</h2>
+                   <input type="text" name="skills"id="skills" placeholder="Enter your Skills">
+                 </div>
+                <button type="button" name="button" id="button" onclick="submitdata()">SUBMIT</button>
+                </div>
+
+  </body>
+  <script type="text/javascript"src="js/main.js">
+
+  </script>
+</html>
